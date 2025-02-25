@@ -2,7 +2,7 @@ import React from 'react';
 
 const Introduction = () => {
   return (
-    <div className="min-h-screen bg-dark-bg p-8 md:p-16">
+    <section id="about" className="min-h-screen bg-dark-bg p-8 md:p-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Column - Text Content */}
@@ -66,7 +66,7 @@ const Introduction = () => {
           <p className="text-white text-sm">Page | 02</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
