@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from '../assets/profile.jpg';
 
 const Introduction = () => {
   return (
@@ -53,7 +54,7 @@ const Introduction = () => {
           <div className="flex items-center justify-center">
             <div className="relative w-full max-w-md">
               <img 
-                src="/profile.jpg" 
+                src={profileImage}
                 alt="Profile" 
                 className="w-full h-auto object-cover rounded-lg shadow-xl"
               />

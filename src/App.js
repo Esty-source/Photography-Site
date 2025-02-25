@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import Introduction from './components/Introduction';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="pt-16">
         <Portfolio />
         <Introduction />
+        <Team />
       </div>
     </div>
   );
